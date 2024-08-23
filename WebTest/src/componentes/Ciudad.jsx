@@ -7,8 +7,9 @@ function Ciudad({nombre, descripcion, imagen}){
           <div className="ciudad">
                <h3 className="cidad_titulo">{nombre}</h3>
                <p className="cidad_descripcion">{descripcion}</p>
-               <img src={imagen} alt= {nombre} />
+               <img src={imagen} alt= {nombre} className="ciudad_imagen" />
           </div>   
         </>
     );
 }
+export default Ciudad;
